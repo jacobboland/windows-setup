@@ -4,6 +4,7 @@ cinst git
 cinst Atom
 cinst nodejs
 cinst ConsoleZ
+cinst SourceTree
 
 Set-TaskbarOptions -Size Small -Lock -Dock Bottom
 Install-ChocolateyPinnedTaskBarItem "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Office"

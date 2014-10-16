@@ -1,9 +1,10 @@
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
 
-cinst git
 cinst Atom
-cinst nodejs
 cinst ConsoleZ
+cinst git
+cinst nodejs
+cinst P4Merge
 cinst SourceTree
 
 Set-TaskbarOptions -Size Small -Lock -Dock Bottom

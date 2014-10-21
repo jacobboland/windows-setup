@@ -2,9 +2,12 @@ Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtec
 
 cinst Atom
 cinst ConsoleZ
+cinst cmder
 cinst git
 cinst nodejs
+cinst nunit
 cinst P4Merge
+cinst resharper
 cinst SourceTree
 
 Set-TaskbarOptions -Size Small -Lock -Dock Bottom
@@ -13,3 +16,4 @@ Install-ChocolateyPinnedTaskBarItem "C:\Program Files\Microsoft Office 15\root\o
 Install-ChocolateyPinnedTaskBarItem "C:\ProgramData\chocolatey\lib\Atom.0.136.0\tools\Atom\atom.exe"
 Install-ChocolateyPinnedTaskBarItem "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe"
 Install-ChocolateyPinnedTaskBarItem "C:\Program Files (x86)\Atlassian\SourceTree\SourceTree.exe"
+Install-ChocolateyPinnedTaskBarItem "C:\tools\cmder\Cmder.exe"

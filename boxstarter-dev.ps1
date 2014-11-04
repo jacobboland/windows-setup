@@ -14,16 +14,13 @@ cinst IIS-WebServerRole -source WindowsFeatures
 cinst IIS-ISAPIFilter -source WindowsFeatures
 cinst IIS-ISAPIExtensions -source WindowsFeatures
 
-#Enable ASP.NET on win 2012/8
-cinst IIS-NetFxExtensibility45 -source WindowsFeatures
-cinst NetFx4Extended-ASPNET45 -source WindowsFeatures
-cinst IIS-ASPNet45 -source WindowsFeatures
-
 #Enable ASP.NET on win 7/2008R2
 ."$env:windir\microsoft.net\framework\v4.0.30319\aspnet_regiis.exe" -i
 
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
 Set-TaskbarOptions -Size Small -Lock -Dock Bottom
+
+apm install vim-mode
 
 Install-ChocolateyPinnedTaskBarItem "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Office"
 Install-ChocolateyPinnedTaskBarItem "C:\Program Files\Microsoft Office 15\root\office15\lync.exe"

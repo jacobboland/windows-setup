@@ -21,6 +21,10 @@ Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtec
 Set-TaskbarOptions -Size Small -Lock -Dock Bottom
 
 apm install vim-mode
+apm install linter
+apm install seti-ui
+apm install seti-syntax
+apm install minimap
 
 Install-ChocolateyPinnedTaskBarItem "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Office"
 Install-ChocolateyPinnedTaskBarItem "C:\Program Files\Microsoft Office 15\root\office15\lync.exe"
